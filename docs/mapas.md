@@ -1,0 +1,4 @@
+# Mapas y precisión
+Mapa base y seis variaciones elementales, con tres configuraciones de Barón: 21 combinaciones. Se incluyen imágenes de referencia en `public/mapas` y máscaras de planificación en `terrain-data.ts`. Hay ajustes dibujados manualmente sobre imágenes; no son datos oficiales de colisión del motor.
+
+Las pruebas comprueban aislamiento de máscaras, muros, arbustos, rutas, visión y persistencia al cambiar variantes. No prueban equivalencia completa con una partida real. Los parches pueden cambiar terreno o movimiento: revisar referencias antes de usar estimaciones competitivas. Las imágenes conservan derechos de Riot y no se atribuyen a Ignacio. No existe un script `terrain:build` en package.json; la referencia anterior se retiró. `scripts/fix-ocean-pit.mjs` es una herramienta de edición local, no un requisito de ejecución.

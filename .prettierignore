@@ -1,0 +1,9 @@
+node_modules
+dist
+.output
+.vinxi
+pnpm-lock.yaml
+package-lock.json
+routeTree.gen.ts
+src/lib/rift-data.ts
+src/lib/terrain-data.ts
